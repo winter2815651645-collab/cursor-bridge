@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security Issue
+    url: https://github.com/winter2815651645-collab/cursor-bridge/security
+    about: Report a security vulnerability here instead.

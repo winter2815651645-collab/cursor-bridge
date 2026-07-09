@@ -1,19 +1,19 @@
 ---
 name: Feature Request
-about: Suggest a new feature or improvement
+about: Suggest an enhancement for Cursor Bridge
 title: "[Feature] "
 labels: enhancement
-assignees: ''
+assignees: winter2815651645-collab
 ---
 
-**Problem**
-What problem are you trying to solve?
+**Is your request related to a problem?**
+What frustrates you today?
 
 **Proposed solution**
-Describe what you'd like to see.
+What would you like Cursor Bridge to do?
 
 **Alternatives considered**
-Any workarounds or alternative approaches you've tried.
+Have you tried any workarounds? What were their downsides?
 
 **Additional context**
-Add any other context here.
+Other clipboard tools you've used, specific use cases, etc.

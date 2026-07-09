@@ -1,25 +1,32 @@
 ---
 name: Bug Report
-about: Report something that isn't working
+about: Report a bug in Cursor Bridge
 title: "[Bug] "
 labels: bug
-assignees: ''
+assignees: winter2815651645-collab
 ---
 
 **Describe the bug**
-What happened and what did you expect to happen?
+What happened? What did you expect to happen?
 
 **To Reproduce**
-Steps:
-1. Copy '...' from '...'
-2. Paste into Cursor
-3. See garbled text
+Steps to reproduce:
+
+1. Copy text from '...'
+2. Paste into '...'
+3. See garbled text / crash / etc.
+
+**Expected behavior**
+What should have happened.
 
 **Environment**
 - Windows version: [e.g. Windows 11 22H2]
-- Python version: [e.g. 3.11.5]
-- Cursor version: [e.g. 0.45.0]
-- Bridge version: [e.g. 1.0.0]
+- Python version: [e.g. Python 3.12.3]
+- Cursor version: [e.g. 0.42.0]
+- Source app: [e.g. Chrome, WeChat, VS Code]
 
-**Screenshots / logs**
-If applicable, attach `bridge_debug.log` (run with `--debug` flag).
+**Clipboard sample**
+If possible, paste the original text that caused the issue (before Cursor Bridge processed it).
+
+**Logs**
+Check `bridge_debug.log` next to `cursor_bridge.pyw` for relevant entries.
