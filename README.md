@@ -1,5 +1,9 @@
 # Cursor Bridge
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey)](https://www.microsoft.com/windows)
+
 A Windows clipboard bridge that fixes CJK text encoding when pasting into [Cursor](https://cursor.com) editor.
 
 ## What It Does
