@@ -7,6 +7,8 @@
 
 A Windows clipboard bridge that fixes CJK text encoding when pasting into [Cursor](https://cursor.com) editor.
 
+![screenshot](assets/screenshot.png)
+
 ## What It Does
 
 Copy Chinese/CJK text from anywhere → Cursor Bridge auto-fixes encoding → paste into Cursor without garbled characters.
