@@ -1338,7 +1338,7 @@ class PopupWindow:
         import tkinter.messagebox as mb
         mb.showinfo(
             "关于 Cursor Bridge",
-            "Cursor Bridge  v1.0.0\n\n"
+            "Cursor Bridge  v1.9\n\n"
             "中文剪贴板桥 — 解决 Cursor 编辑器\n"
             "中文粘贴乱码问题\n\n"
             "纯 stdlib 实现 · tkinter + ctypes\n"
@@ -1470,7 +1470,7 @@ class App:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def main():
-    _log("=== Cursor Bridge v1.0.0 启动 ===")
+    _log("=== Cursor Bridge v1.9 启动 ===")
     App().run()
 
 
