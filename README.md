@@ -38,11 +38,20 @@ pythonw cursor_bridge.pyw
 
 ### Auto-start on boot
 
-Put `cursor-bridge-startup.vbs` in your Startup folder:
+1. Place `cursor-bridge-startup.vbs` **in the same folder** as `cursor_bridge.pyw`
+2. Create a shortcut in your Startup folder:
 
 ```
 %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\
 ```
+
+The shortcut target should point to:
+
+```
+wscript.exe "C:\path\to\cursor-bridge-startup.vbs"
+```
+
+> **Note for non-English Windows users:** The VBS file contains only ASCII. If you create your own VBS wrapper, save it as **ANSI/ASCII**, not UTF-8. VBScript does not support UTF-8 and will fail with "Invalid character" errors on Chinese/Japanese/Korean Windows.
 
 ## Requirements
 
