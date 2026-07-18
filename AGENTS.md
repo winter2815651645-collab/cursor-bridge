@@ -1,0 +1,30 @@
+<!-- ARCHSIGHT-COGNITION:START -->
+## ArchSight Cognition
+
+当任务需要问题澄清、写作评审、研究设计、战略判断或跨学科决策复盘时，
+从 `C:\Users\Harry\Downloads\claude code\.archsight-cognition` 加载最相关的认知工具。
+
+默认路由：
+- 需求和概念不清：`personas/philosophy/socrates/SKILL.md`
+- 不确定性和证据判断：`personas/mathematics/bayes/SKILL.md`
+- 变量、约束和系统建模：`personas/physics/newton/SKILL.md`
+- 不知道该用哪个工具：`teams/thinking-council/SKILL.md`
+- 高风险决策：`teams/decision-council/SKILL.md`
+- 长期议题、立场压力测试和结构化分歧：`debates/README.md` 或 `debates/<topic>/SKILL.md`
+- 文章、叙事和表达：`teams/writing-review/SKILL.md`
+- 产品、体验、视觉和交互：`teams/design-review/SKILL.md`
+- 产品战略、定位和最小验证：`teams/product/SKILL.md`
+- 技术领导、研发组织和交付反馈：`teams/lead/SKILL.md`
+- 教育、学习路径和亲子成长：`teams/learning-path/SKILL.md`
+- 需要生成明确产物：`deliverables/README.md` 或 `deliverables/<task>/SKILL.md`
+
+综合 team 工具统一使用短命令，例如 `cogt-think`、`cogt-decide`、`cogt-write`、`cogt-design`、`cogt-product`、`cogt-lead`、`cogt-learn`。
+生成型交付物统一使用 `cogx-` 前缀，例如 `cogx-prd`、`cogx-decision-memo`、`cogx-draft`、`cogx-research-brief`。
+单个 persona 工具统一使用 `cogp-` 前缀，例如 `cogp-socrates`、`cogp-bayes`、`cogp-newton`。
+方法工具统一使用 `cogm-` 前缀，例如 `cogm-auto`、`cogm-critical-thinking`、`cogm-structured-problem-solving`。
+风格化口吻工具统一使用 `cogv-` 前缀，例如 `cogv-kant`、`cogv-nietzsche`。`cogv-*` 只用于口吻和表达风格，不声称历史人物本人在说话。
+结构化分歧和长期议题工具统一使用 `cogd-` 前缀，例如 `cogd-general`、`cogd-life`、`cogd-technology`。
+
+不要人格 cosplay。把 persona 当作学科思维工具，而不是历史人物模拟。
+`persona` 和 `voice` 只使用已离世人物或稳定历史传统；仍在世人物、活跃企业家和个人品牌材料只能去人物中心化后进入 `methods/` 或 team 参考材料。
+<!-- ARCHSIGHT-COGNITION:END -->

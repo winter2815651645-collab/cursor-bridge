@@ -1,0 +1,11 @@
+# ===== 构建产物 =====
+build/
+dist/
+__pycache__/
+*.pyc
+
+# ===== 反编译/提取物 =====
+*_extracted/
+
+# ===== 视频下载 =====
+videodl_outputs/
