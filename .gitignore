@@ -30,3 +30,26 @@ desktop.ini
 bridge_debug.log
 debug_*.png
 CURSOR_BRIDGE_RELEASE_PLAN.md
+
+# Tool configs
+.agentcad/
+.agents/
+.archsight-cognition/
+.claude/
+.clinerules/
+.cursor/
+.opencode/
+.playwright-mcp/
+.qoder/
+
+# Session state
+.dropped.json
+
+# Reference repos (nested git)
+offline-solidworks-api-docs/
+
+# Cache / runtime data
+data/
+
+# Accidentally created
+nul
